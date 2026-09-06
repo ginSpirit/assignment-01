@@ -13,6 +13,7 @@
   font-style: normal;
 }
 
+
 /* Shared section for all the pages */
 .btn {
     background-color: #4E47FF;
@@ -70,6 +71,7 @@ nav {
     gap: auto;
     padding: 0px 120px;
     align-items: center;
+    margin: 0px auto;
 }
 
 .action-container-text {
@@ -122,9 +124,9 @@ nav {
 .product-title {
     font-size: 38px;
     font-weight: 800;
-    /* text-align: center; */
+    text-align: center;
     color: black;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 .item-title {
@@ -132,14 +134,95 @@ nav {
     font-weight: 800;
     color: #4E47FF;
     text-align: center;
+    margin: 0px;
 }
 
 .item-text {
     /* text-align: center; */
     font-size: 20px;
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    text-align: center;
 }
 .list-items {
     flex: 1;
     text-align: center;
+}
+
+/* Users Feedback section */
+.users-feedback {
+    /* justify-content: center; */
+    align-items: left;
+    padding: 100px 160px;
+    margin: 0px 50px;
+}
+.users-feedback h2{
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-bottom: 0px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    gap: 20px;
+    padding: 24px;
+}
+.feedback-content {
+    width: 420px;
+    height: fit-content;
+    /* align-items: center; */
+    text-align: left;
+    background-color: white;
+    border-radius: 14px;
+    padding: 0px 24px;
+    border: 1px solid rgb(208, 208, 208);
+    box-shadow: 0px 2px 4px rgba(244, 244, 244, 0.3);
+    box-sizing: border-box;
+}
+
+.icons ul {
+    list-style: none;
+    display: flex;
+    size: 20px;
+    gap:1px;
+    padding: 0;
+    margin: 24px 0px;
+
+}
+.users-feedback-title {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.users-feedback-text {
+    font-size: 16px;
+    text-align: left;
+}
+.user-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+}
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-name {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px;
+}
+.date {
+    color: rgba(179, 179, 179, 1);
+    font-size: 16px;
+    margin: 4px;
 }

@@ -15,6 +15,9 @@
 
 
 /* Shared section for all the pages */
+main {
+    background-color: #F5F8FF;
+}
 .btn {
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -106,7 +109,7 @@ nav {
 .productive-users {
     max-width: 1140px;
     padding: 50px 80px;
-    background-color: #c7bcf16b;
+    background-color:#4e47ff1a;
     margin: 0px auto;
     border-radius: 24px;
 }
@@ -225,4 +228,40 @@ nav {
     color: rgba(179, 179, 179, 1);
     font-size: 16px;
     margin: 4px;
+}
+
+/* Ready to focus better */
+.showcase {
+    background-color: #FFFFFF;
+    margin: 100px 160px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.showcase h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.showcase p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+
+}
+
+.showcase button {
+    font-weight: 400;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.showcase img {
+    border-radius: 48px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }

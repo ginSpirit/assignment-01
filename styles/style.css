@@ -265,3 +265,26 @@ nav {
     display: block;
     margin: 0 auto;
 }
+
+/* Get in thouch */
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 71px auto;
+    align-items: center;
+}
+.contact h1 {
+    font-size: 97px;
+    font-weight: 800;
+    text-align: left;
+    margin: 0px;
+}
+
+.contact-form {
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 20px;
+}

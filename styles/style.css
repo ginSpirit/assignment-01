@@ -13,13 +13,11 @@
   font-style: normal;
 }
 
-/* button:hover {
-    background-color: #4036e8;
-} */
 
 /* Shared section for all the pages */
 main {
     background-color: #F5F8FF;
+    width: 100%;
 }
 .btn {
     background-color: #4E47FF;
@@ -30,6 +28,9 @@ main {
     font-size: 16px;
     font-weight: 800;
     cursor: pointer;
+}
+.btn:hover {
+    background-color: green;
 }
 
 /* Header part  */
@@ -386,4 +387,8 @@ footer {
     padding: 0;
 
     list-style: none;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: #8987A1;
 }

@@ -13,6 +13,9 @@
   font-style: normal;
 }
 
+/* button:hover {
+    background-color: #4036e8;
+} */
 
 /* Shared section for all the pages */
 main {
@@ -274,6 +277,10 @@ nav {
     margin: 0 auto;
     padding: 71px auto;
     align-items: center;
+    width: 83%;
+}
+.contact {
+    width: 48%;
 }
 .contact h1 {
     font-size: 97px;
@@ -282,9 +289,50 @@ nav {
     margin: 0px;
 }
 
-.contact-form {
-    width: 100%;
+/* Whole form */
+.group-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
 }
+
+/* each block */
 .form-group {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* label */
+.form-group label {
+    /* display: block; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    border: 1px solid #d9dce8;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-group input {
+    height: 70px;
+}
+.form-group textarea {
+    height: 135px;
+    resize: none;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.form-group button {
+    width: 100%;
+    height: 40px;
 }
